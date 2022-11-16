@@ -1,0 +1,36 @@
+.motto-section {
+  align-items: center;
+  background-color: var(--primary);
+  background-image: url('../imgs/mottoBG.png');
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 90px;
+}
+
+.motto-content {
+  width: 80%;
+}
+
+@media screen and (min-width: 1024px) {
+  .motto-content {
+    font-size: 1.3em;
+  }
+}
+
+@media screen and (min-width: 1680px) {
+  .motto-content {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .motto-content {
+    width: 40%;
+
+  }
+}

@@ -1,0 +1,28 @@
+footer {
+  align-items: center;
+  background-color: var(--secondary);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 60px;
+  position: absolute;
+  width: 100vw;
+}
+
+footer p {
+  display: flex;
+}
+
+footer p i {
+  margin: 0 15px;
+}
+
+.footer-icons {
+  color: white;
+}
+
+@media screen and (min-width: 1920px) {
+  #footer {
+    height: 65px;
+  }
+}

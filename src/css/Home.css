@@ -1,0 +1,15 @@
+main > section {
+  background-color: white;
+  color: black;
+  height: 100vh;
+  width: 100vw;
+}
+
+main > section:nth-child( 2n+3 ) {
+  background-color: var(--primary);
+  color: white;
+}
+
+.back-bar {
+  height: 90px;
+}

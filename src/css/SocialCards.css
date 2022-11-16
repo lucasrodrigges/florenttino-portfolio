@@ -1,0 +1,12 @@
+#socials {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  height: 60px;
+}
+
+#socials i {
+  font-size: 2em;
+  margin: 0.5em;
+}

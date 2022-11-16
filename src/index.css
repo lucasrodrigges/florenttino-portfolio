@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Marvel:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+
+:root {
+  --quote-dark-blue: rgb(30, 30, 60);
+  --primary: rgb(244, 155, 149);
+  --dark-primary: rgb(212, 101, 89);
+  --secondary: rgb(20, 20, 20);
+  --montserrat: 'Montserrat', sans-serif;
+  --marvel: 'Marvel', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--montserrat);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}

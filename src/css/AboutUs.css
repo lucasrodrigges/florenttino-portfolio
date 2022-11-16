@@ -1,0 +1,31 @@
+#about {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 90px;
+}
+
+.aboutus-content {
+  width: 80%;
+}
+
+@media screen and (min-width: 1024px) {
+  .aboutus-content {
+    font-size: 1.3em;
+  }
+}
+
+@media screen and (min-width: 1680px) {
+  .aboutus-content {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .aboutus-content {
+    width: 40%;
+    font-size: 1.3em;
+  }
+}
