@@ -1,6 +1,6 @@
 footer {
   align-items: center;
-  background-color: var(--secondary);
+  background-color: var(--dark-primary);
   color: white;
   display: flex;
   flex-direction: column;
@@ -21,7 +21,8 @@ footer p i {
   color: white;
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and ( min-width : 1920px ) {
+
   #footer {
     height: 65px;
   }

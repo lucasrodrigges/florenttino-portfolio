@@ -2,9 +2,9 @@
 
 :root {
   --quote-dark-blue: rgb(30, 30, 60);
-  --primary: rgb(244, 155, 149);
-  --dark-primary: rgb(212, 101, 89);
-  --secondary: rgb(20, 20, 20);
+  --primary: rgb(161, 85, 86);
+  --dark-primary: rgb(147, 57, 58);
+  --secondary: rgb(221, 221, 221);
   --montserrat: 'Montserrat', sans-serif;
   --marvel: 'Marvel', sans-serif;
 }
@@ -24,6 +24,13 @@ code {
 * {
   scroll-behavior: smooth;
   scrollbar-width: none;
+  font-size: 15px;
+}
+
+@media screen and (min-width: 820px) {
+  * {
+    font-size: 17px;
+  }
 }
 
 *::-webkit-scrollbar {

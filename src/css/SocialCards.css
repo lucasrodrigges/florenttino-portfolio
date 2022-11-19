@@ -2,11 +2,18 @@
   align-items: center;
   box-sizing: border-box;
   display: flex;
-  justify-content: center;
   height: 60px;
+  justify-content: center;
+  transition: all 03s;
 }
 
 #socials i {
   font-size: 2em;
   margin: 0.5em;
+  transition: all 0.3s;
+}
+
+#socials i:hover {
+  transform: scale(1.1);
+  transition: all 0.3s;
 }

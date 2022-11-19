@@ -1,13 +1,19 @@
-main > section {
+main>section {
   background-color: white;
   color: black;
   height: 100vh;
   width: 100vw;
 }
 
-main > section:nth-child( 2n+3 ) {
-  background-color: var(--primary);
+main>section:nth-child(2n+3) {
+  /* background-color: var(--primary);
+   */
+  background-image: url('../imgs/BG-TEXTURA-2.png');
   color: white;
+}
+
+main>section:nth-child(2n+2) {
+  background-image: url('../imgs//paper-bg.png');
 }
 
 .back-bar {

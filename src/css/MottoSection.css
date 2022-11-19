@@ -1,7 +1,7 @@
 .motto-section {
   align-items: center;
   background-color: var(--primary);
-  background-image: url('../imgs/mottoBG.png');
+  background-image: url('../imgs/pexelsBG-2.jpg');
   background-position: center;
   background-size: cover;
   box-sizing: border-box;
@@ -16,21 +16,62 @@
   width: 80%;
 }
 
-@media screen and (min-width: 1024px) {
+.motto-content h2 {
+  font-weight: 600;
+}
+
+
+
+.motto-content h2,
+.motto-content p {
+  color: black;
+}
+
+@media screen and (min-width : 768px) {
   .motto-content {
-    font-size: 1.3em;
+    width: 60%;
+    margin-left: -108px;
   }
 }
 
-@media screen and (min-width: 1680px) {
+
+@media screen and (min-width : 1024px) {
+
+  .motto-content {
+    width: 50%;
+    margin-left: -155px;
+  }
+
+  .motto-content h2,
+  .motto-content p {
+    font-size: 1.2em;
+
+  }
+}
+
+@media screen and (min-width : 1024px) {
+  .motto-content {
+    margin-left: -270px;
+  }
+}
+
+@media screen and (min-width : 1680px) {
+
   .motto-content {
     width: 50%;
   }
 }
 
-@media screen and (min-width: 2560px) {
+@media screen and (min-width : 1680px) {
   .motto-content {
     width: 40%;
+    margin-left: -220px;
+  }
+}
 
+@media screen and (min-width : 2560px) {
+
+  .motto-content {
+    width: 40%;
   }
 }

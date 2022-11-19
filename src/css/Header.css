@@ -1,6 +1,6 @@
 .top-bar {
   align-items: center;
-  background-color: var(--secondary);
+  background-color: var(--dark-primary);
   color: white;
   display: flex;
   height: 90px;
@@ -20,12 +20,12 @@ a {
 }
 
 .logo-header {
+  left: -66px;
+  margin: 0 auto;
   position: fixed;
-  left: 6px;
   right: 0;
   top: 9px;
-  margin: 0 auto;
-  width: 225px;
+  width: 250px;
 
 }
 
@@ -41,7 +41,16 @@ a {
   color: white;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 375px) {
+  .logo-header {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width : 1024px) {
+
   .top-bar {
     justify-content: flex-start;
   }
@@ -52,7 +61,8 @@ a {
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width : 1440px) {
+
   .logo-header {
     left: 99px;
     top: 3px;
@@ -60,14 +70,16 @@ a {
   }
 }
 
-@media screen and (min-width: 1240px) {
+@media screen and (min-width : 1240px) {
+
   .logo-header {
     margin-left: 62px;
     width: 256px;
   }
 }
 
-@media screen and (min-width: 1680px) {
+@media screen and (min-width : 1680px) {
+
   .logo-header {
     margin-left: 15%;
   }
