@@ -49,7 +49,7 @@
   color: var(--quote-dark-blue);
 }
 
-@media screen and (min-width : 1024px) {
+@media screen and ( min-width : 1024px ) {
 
   .feedbacks-content {
     font-size: 1.2em;
@@ -57,7 +57,7 @@
   }
 }
 
-@media screen and (min-width : 1920px) {
+@media screen and ( min-width : 1920px ) {
 
   .feedbacks-content {
     width: 35%;

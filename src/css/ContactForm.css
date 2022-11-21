@@ -1,4 +1,5 @@
 @keyframes disableBtn {
+
   from {
     transform: translateX(-15px);
   }
@@ -45,11 +46,11 @@
 }
 
 .contact-form button {
-  display: flex;
-  justify-content: center;
   align-items: center;
   background-color: black;
   color: white;
+  display: flex;
+  justify-content: center;
   transition: all 0.3s;
 }
 
@@ -77,36 +78,37 @@
   width: 120px;
 }
 
-@media screen and (min-width : 768px) {
+@media screen and ( min-width : 768px ) {
+
   .contact-form {
-    margin-top: 10%;
     font-size: 1.3rem;
+    margin-top: 10%;
   }
 
   .contact-form h2 {
     font-size: 2rem;
   }
 
-  .contact-form input,
-  .contact-form textarea {
-    width: 320px;
+  .contact-form input, .contact-form textarea {
     padding: 17px;
+    width: 320px;
   }
 
   .contact-form textarea {
-    height: 2 00px;
+    height: 2 00;
   }
 
   .contact-form button {
-    width: 150px;
     height: 45px;
+    width: 150px;
   }
 }
 
-@media screen and (min-width : 820px) {
+@media screen and ( min-width : 820px ) {
+
   .contact-form {
-    padding-top: 120px;
     margin: 0 auto;
+    padding-top: 120px;
   }
 
   .contact-form h2 {
@@ -119,8 +121,8 @@
   }
 
   .contact-form textarea {
-    padding: 15px;
     height: 150px;
+    padding: 15px;
     width: 260px;
   }
 
@@ -130,7 +132,7 @@
   }
 }
 
-@media screen and (min-width : 1024px) {
+@media screen and ( min-width : 1024px ) {
 
   .contact-form {
     font-size: 1.3rem;
@@ -142,13 +144,14 @@
   }
 }
 
-@media screen and (min-width : 1024px) {
+@media screen and ( min-width : 1024px ) {
+
   .contact-form {
     margin-top: -114px;
   }
 }
 
-@media screen and (min-width : 1920px) {
+@media screen and ( min-width : 1920px ) {
 
   .contact-form {
     margin-top: -17px;
@@ -163,7 +166,6 @@
   }
 
   .contact-form button {
-
     width: 280px;
   }
 }

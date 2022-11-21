@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: column;
   font-family: var(--marvel);
+
   /* font-size: 2rem; */
   font-weight: 700;
   height: calc(100vh - 90px);
@@ -13,7 +14,7 @@
   top: 45px;
   transition: all 0.4s;
   width: 100vw;
-  z-index: 1;
+  z-index: 99;
 }
 
 .nav-header a {
@@ -32,7 +33,7 @@
   visibility: visible;
 }
 
-.nav-header>a {
+.nav-header > a {
   align-items: center;
   display: flex;
   flex: 1;
@@ -41,23 +42,23 @@
   width: 100vw;
 }
 
-.nav-header>a:hover {
+.nav-header > a:hover {
   opacity: 0.8;
 }
 
-@media screen and (min-width : 1024px) {
+@media screen and ( min-width : 1024px ) {
 
   .reset-btn {
     display: none;
   }
 
   .nav-header {
+    background-color: var(--dark-primary);
     flex-direction: row;
     height: 90px;
     top: 0;
     width: 70%;
     z-index: 99;
-    background-color: var(--dark-primary);
   }
 
   .nav-header a {
@@ -75,13 +76,14 @@
   }
 }
 
-@media screen and (min-width : 1280px) {
+@media screen and ( min-width : 1280px ) {
+
   .nav-header {
     width: 55%;
   }
 }
 
-@media screen and (min-width : 1440px) {
+@media screen and ( min-width : 1440px ) {
 
   .nav-header {
     right: 39px;
@@ -89,7 +91,7 @@
   }
 }
 
-@media screen and (min-width : 1920px) {
+@media screen and ( min-width : 1920px ) {
 
   .nav-header {
     right: 62px;

@@ -1,33 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Marvel:wght@400;700&family=Montserrat:wght@400;700&display=swap');
 
 :root {
+
   --quote-dark-blue: rgb(30, 30, 60);
+
   --primary: rgb(161, 85, 86);
+
   --dark-primary: rgb(147, 57, 58);
+
   --secondary: rgb(221, 221, 221);
-  --montserrat: 'Montserrat', sans-serif;
-  --marvel: 'Marvel', sans-serif;
+
+  --montserrat: 'Montserrat' , sans-serif;
+
+  --marvel: 'Marvel' , sans-serif;
 }
 
 body {
-  margin: 0;
   font-family: var(--montserrat);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: 0;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro , Menlo , Monaco , Consolas , Courier New , monospace;
 }
 
 * {
+  font-size: 15px;
   scroll-behavior: smooth;
   scrollbar-width: none;
-  font-size: 15px;
 }
 
-@media screen and (min-width: 820px) {
+@media screen and ( min-width : 820px ) {
+
   * {
     font-size: 17px;
   }

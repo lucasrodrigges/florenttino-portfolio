@@ -26,7 +26,6 @@ a {
   right: 0;
   top: 9px;
   width: 250px;
-
 }
 
 .bars {
@@ -41,15 +40,16 @@ a {
   color: white;
 }
 
-@media screen and (min-width: 375px) {
+@media screen and ( min-width : 375px ) {
+
   .logo-header {
     left: 0;
-    right: 0;
     margin: 0 auto;
+    right: 0;
   }
 }
 
-@media screen and (min-width : 1024px) {
+@media screen and ( min-width : 1024px ) {
 
   .top-bar {
     justify-content: flex-start;
@@ -61,7 +61,7 @@ a {
   }
 }
 
-@media screen and (min-width : 1440px) {
+@media screen and ( min-width : 1440px ) {
 
   .logo-header {
     left: 99px;
@@ -70,7 +70,7 @@ a {
   }
 }
 
-@media screen and (min-width : 1240px) {
+@media screen and ( min-width : 1240px ) {
 
   .logo-header {
     margin-left: 62px;
@@ -78,7 +78,7 @@ a {
   }
 }
 
-@media screen and (min-width : 1680px) {
+@media screen and ( min-width : 1680px ) {
 
   .logo-header {
     margin-left: 15%;
