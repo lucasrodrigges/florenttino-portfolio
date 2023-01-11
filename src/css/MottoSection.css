@@ -1,10 +1,21 @@
+@keyframes fadein {
+  from {
+    transform: translateX(-5000px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(-250px);
+    opacity: 1;
+  }
+}
+
 .motto-section {
   align-items: center;
-  background-color: var(--primary);
-  background-image: url('../imgs/pexelsBG-2-blur.jpg');
-  background-position: center;
+  background-image: url('../imgs/bg-img.jpg');
   background-size: cover;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
+  background-position: center;
   color: white;
   display: flex;
   flex-direction: column;
@@ -13,54 +24,81 @@
 }
 
 .motto-content {
+  background-color: rgba(186, 117, 119, 0.928);
+  padding: 15px;
   width: 80%;
+  border-radius: 15px;
+  animation: fadein 1.5s;
 }
 
 .motto-content h2 {
   font-weight: 600;
 }
 
-.motto-content h2, .motto-content p {
+.motto-content h2,
+.motto-content p {
   color: black;
 }
 
-@media screen and ( min-width : 768px ) {
+@media screen and (min-width : 768px) {
+  .motto-section {
+    background-size: cover;
+    background-position: top;
+  }
 
   .motto-content {
+    padding: 25px;
+    padding-left: 400px;
     margin-left: -108px;
     width: 60%;
+    transform: translateX(-200px);
   }
 }
 
 
-@media screen and ( min-width : 1024px ) {
+@media screen and (min-width : 1024px) {
+  .motto-section {
+    background-size: contain;
+    background-position: none;
+  }
 
   .motto-content {
     margin-left: -155px;
     width: 50%;
   }
 
-  .motto-content h2, .motto-content p {
+  .motto-content h2,
+  .motto-content p {
     font-size: 1.2em;
 
   }
 }
 
-@media screen and ( min-width : 1024px ) {
-
+@media screen and (min-width : 1024px) {
   .motto-content {
+    padding: 25px;
+    padding-left: 400px;
     margin-left: -270px;
+    width: 60%;
+    transform: translateX(-300px);
   }
+
 }
 
-@media screen and ( min-width : 1680px ) {
+@media screen and (min-width : 1680px) {
+  .motto-content {
+    padding: 25px;
+    padding-left: 400px;
+    margin-left: -270px;
+    transform: translateX(-450px);
+  }
 
   .motto-content {
-    width: 50%;
+    width: 40%;
   }
 }
 
-@media screen and ( min-width : 1680px ) {
+@media screen and (min-width : 1680px) {
 
   .motto-content {
     margin-left: -220px;
@@ -68,7 +106,7 @@
   }
 }
 
-@media screen and ( min-width : 2560px ) {
+@media screen and (min-width : 2560px) {
 
   .motto-content {
     width: 40%;
